@@ -1,0 +1,53 @@
+<html>
+<head>
+	<script type="text/javascript">
+		
+		function calculate()
+		{
+			var rate = document.getElementById("rate").innerHTML;
+			var qty = document.getElementById("qty").innerHTML; 
+			var Total = rate*qty;
+
+			document.getElementById("mtotal").innerHTML="Tdkufhglvc";
+			
+		}
+	</script>
+
+</head>
+
+<br><br>
+<center><h1><center><b><font color="white" size="40">PETROL PUMP SYSTEM</font></b></center></h1></center>
+
+<center><h1><center><b><font color="red" size="40">Add Customer</font></b></center></h1></center>
+<div class="form">
+<body bgcolor="black">
+<form action="addcust.php" method="POST" align="center" name="f1">
+
+<br><b><font color="red" size="">Date:</font></b>
+	<input type="date" name="f"> <br>
+
+
+<br><b><font color="red" size="">customer No:</font></b>
+	<input type="text" name="a" placeholder="Enter no"> <br>
+
+<br><b><font color="red" size="">Type:</font></b>
+	<input type="text" name="b" placeholder="Enter type"> <br>
+	
+<br><b><font color="red" size="">Rate:</font></b>&nbsp;
+	<input type="text" name="c" placeholder="Enter Rate" id="rate"> <br>
+
+<br><b><font color="red" size="">Quantity:</font></b>
+	<input type="text" name="d" placeholder="Enter Quantity" id="qty"> <br>
+
+
+
+<!--b><font color="red" size="" >Total:</font></b>
+	<input type="text" name="e" placeholder="Total"  id="mtotal"> <br-->
+	
+<br><input type="Submit" value="Submit"><br>
+<br> <div class="homebtn"><button><a href="adminhome.html" id="homebtn"> Home </a></button> </div>
+
+</form>
+</body>
+</div>
+</html>
